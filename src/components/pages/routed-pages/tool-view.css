@@ -1,0 +1,45 @@
+.tool-view-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 1s;
+}
+
+.tool-view-title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.tool-view-text {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.tool-link-item {
+    list-style-type: none;
+
+}
+
+.tool-link-readMore {
+    text-decoration: none;
+    color: #121212;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    transition: all .5s;
+}
+
+.tool-link-readMore:hover{
+    color: #23CE6B;
+}
+
+@media screen and (max-width: 1200px) {
+    .tool-view-container{
+        width: 90%;
+    }
+    
+  }

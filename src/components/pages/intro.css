@@ -1,0 +1,53 @@
+.intro-container {
+  margin-top: 5.5rem;
+  margin-bottom: 1rem;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.intro-title {
+  font-family: bebas;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.intro-title span {
+ color: #C42348;
+}
+
+.intro-text{
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+
+}
+
+.intro-title-enter {
+  opacity: 0;
+}
+.intro-title-enter-active {
+  animation: text-focus-in 1s ;
+  opacity: 1;
+  transition: all 1s;
+}
+
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+

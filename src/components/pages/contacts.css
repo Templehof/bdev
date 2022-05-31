@@ -1,0 +1,79 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-container {
+    padding: 4rem 1rem 4rem 1rem;
+    width: 50%;
+    max-height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .5s;
+}
+
+.contact-title {
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.contact-text{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.contact-text a{
+ color: #C42348;
+ font-weight: 600;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contact-form input, textarea {
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.contact-form label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.contact-submit-btn {
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #02040F;
+    color: #FFFFF3;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.contact-submit-btn:hover{
+    background-color: #C42348;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    .contacts-container {
+        width: 90%;
+    }
+    
+}

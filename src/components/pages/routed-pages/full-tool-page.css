@@ -1,0 +1,51 @@
+.full-tool-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.full-tool-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 6rem;
+}
+
+.full-image {
+  width: 50%;
+}
+
+.full-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.full-description {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.source-link-full {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.sources {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 1rem;
+  place-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .full-tool-content {
+    width: 90%;
+    margin-top: 3rem;
+  }
+}

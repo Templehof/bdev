@@ -1,0 +1,17 @@
+
+.about-title{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: #FFFF;
+    opacity: .9;
+}
+
+.about-text{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: #FFFF;
+    opacity: .9;
+}
