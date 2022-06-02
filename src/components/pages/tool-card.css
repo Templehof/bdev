@@ -11,10 +11,15 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     transition: all .3s ease-in;
+
+    z-index: 99;
 }
+
 .tool-card-container:hover{
-    transform: translateX(-20%);
+    transform: translateX(-33%);
 }
+
+
 
 .tool-card-container:not(:first-child){
     margin-left: -10%;
@@ -42,7 +47,7 @@ img {
     }
 
     .tool-card-container:hover{
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
     
     .tool-card-container:not(:first-child){
