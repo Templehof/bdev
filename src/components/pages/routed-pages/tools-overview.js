@@ -97,7 +97,7 @@ function ToolsOverview() {
         mountOnEnter
         unmountOnExit
       >
-        <section className="page-section tools-overview">{allTools()}</section>
+        <section className="tools-overview">{allTools()}</section>
       </CSSTransition>
       {isLoading && <LoadingModal />}
     </React.Fragment>

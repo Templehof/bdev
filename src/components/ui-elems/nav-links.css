@@ -10,24 +10,24 @@ ul{
 
 
 .nav-link{
-    color: white;
+    color: var(--baseWhite);
     font-size: 2rem;
     text-decoration: none;
 }
 
 .nav-link-back {
     font-size: 2rem;
-    color: black;
+    color: var(--baseBlack);
     padding: 1rem;
     text-decoration: none;
 }
 
 .nav-link-back span {
-    color: #C42348;
+    color: var(--baseRed);
 }
 
 .route-link{
-    color: #C42348;
+    color: var(--baseRed);
 }
 
 .nav-link:hover {

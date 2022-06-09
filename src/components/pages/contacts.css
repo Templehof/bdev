@@ -28,7 +28,7 @@
 }
 
 .contact-text a{
- color: #C42348;
+ color: var(--baseRed);
  font-weight: 600;
 }
 
@@ -42,8 +42,10 @@
 }
 
 .contact-form input, textarea {
+    padding: 1rem;
     width: 90%;
     font-size: 1.5rem;
+    background-color: var(--baseWhite);
 }
 
 .contact-form label {
@@ -58,7 +60,7 @@
     font-family: 'Bebas Neue', sans-serif;
     padding: .5rem 1rem .5rem 1rem;
     background-color: #02040F;
-    color: #FFFFF3;
+    color: var(--baseWhite);
     font-size: 1.5rem;
     cursor: pointer;
     border: none;
@@ -67,8 +69,8 @@
 }
 
 .contact-submit-btn:hover{
-    background-color: #C42348;
-    color: black;
+    background-color: var(--baseRed);
+    color: var(--baseWhite);
 }
 
 @media screen and (max-width: 1000px) {

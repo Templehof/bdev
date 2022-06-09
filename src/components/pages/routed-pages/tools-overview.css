@@ -5,6 +5,12 @@
 }
 
 .tools-overview{
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    cursor: default;
     margin-top: 6rem;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +41,7 @@
     font-family: 'Bebas Neue', sans-serif;
     padding: .5rem 1rem .5rem 1rem;
     background-color: #02040F;
-    color: #FFFFF3;
+    color: var(--baseWhite);
     font-size: 1.5rem;
     cursor: pointer;
     border: none;
@@ -45,8 +51,8 @@
 }
 
 .filter-btn:hover{
-    background-color: #C42348;
-    color: #121212;
+    background-color: var(baseRed);
+    color: var(--baseBlack);
 }
 
 
@@ -57,7 +63,7 @@
     letter-spacing: 1px;
     padding: .5rem 1rem .5rem 1rem;
     background-color: #02040F;
-    color: #FFFFF3;
+    color: var(--baseWhite);
     font-size: 1.5rem;
     cursor: pointer;
     border: none;
@@ -67,7 +73,7 @@
 }
 
 .filter-menu-btn:hover{
-    color: #02040F;
+    color: var(--baseBlack);
 }
 
 .filter-menu-btn::before {
@@ -75,7 +81,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #C42348;
+    background-color: var(baseRed);
     height: 100%;
     width: 100%;
     transform-origin: bottom left;

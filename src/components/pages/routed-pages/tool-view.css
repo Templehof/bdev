@@ -10,11 +10,13 @@
     margin-bottom: 1rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     transition: all 1s;
+    border-radius: .4rem;
 }
 
 .tool-view-title{
     text-align: center;
     font-size: 1.5rem;
+    border-bottom: 2px solid var(--baseRed);
 }
 
 .tool-view-text {
@@ -36,7 +38,7 @@
 }
 
 .tool-link-readMore:hover{
-    color: #23CE6B;
+    color: var(--baseRed);
 }
 
 @media screen and (max-width: 1200px) {

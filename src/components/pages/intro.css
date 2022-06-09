@@ -17,7 +17,7 @@
 }
 
 .intro-title span {
- color: #C42348;
+ color: var(--baseRed);
 }
 
 .intro-text{

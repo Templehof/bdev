@@ -20,11 +20,11 @@
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
     font-size: 2rem;
-    color: #02040F;
+    color: var(--baseBlack);
 }
 
 .logo span{
-    color: #C42348;
+    color: var(--baseRed);
 }
 
 .menu-btn {
@@ -32,8 +32,8 @@
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1px;
     padding: .5rem 1rem .5rem 1rem;
-    background-color: #02040F;
-    color: #FFFFF3;
+    background-color: var(--baseBlack);
+    color: var(--baseWhite);
     font-size: 1.5rem;
     cursor: pointer;
     border: none;
@@ -51,7 +51,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #C42348;
+    background-color: var(--baseRed);
     height: 100%;
     width: 100%;
     transform-origin: bottom left;

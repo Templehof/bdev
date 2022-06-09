@@ -4,7 +4,7 @@
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
     font-size: 2rem;
-    color: #FFFF;
+    color: var(--baseWhite);
     opacity: .9;
 }
 
@@ -12,6 +12,6 @@
     text-align: center;
     letter-spacing: 1px;
     font-size: 1.5rem;
-    color: #FFFF;
+    color: var(--baseWhite);
     opacity: .9;
 }
