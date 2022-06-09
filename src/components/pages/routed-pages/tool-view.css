@@ -1,6 +1,6 @@
 .tool-view-container {
     width: 90%;
-    max-height: 30rem;
+    max-height: 35rem;
     min-height: 15rem;
     display: flex;
     flex-direction: column;

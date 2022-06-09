@@ -15,8 +15,16 @@
   margin-top: 6rem;
 }
 
+.image-container {
+  width: 60%;
+  height: 20rem;
+}
+
 .full-image {
-  width: 50%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit:cover;
 }
 
 .full-title {
@@ -47,5 +55,15 @@
   .full-tool-content {
     width: 90%;
     margin-top: 3rem;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .full-description {
+    text-align: left;
+    font-size: 1.3rem;
   }
 }
