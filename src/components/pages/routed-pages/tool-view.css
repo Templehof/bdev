@@ -1,5 +1,7 @@
 .tool-view-container {
-    width: 50%;
+    width: 90%;
+    max-height: 30rem;
+    min-height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;

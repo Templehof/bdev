@@ -2,6 +2,7 @@
   width: 30%;
   height: 100%;
   max-height: 20rem;
+  min-height: 15rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -15,12 +16,8 @@
   z-index: 99;
 }
 
-.tool-card-container:not(:first-child):hover {
-  transform: translateX(-33%);
-}
-
-.tool-card-container:first-child:hover {
-  transform:translateY(-50%)
+.tool-card-container:hover {
+  transform: translateX(-30%);
 }
 
 .tool-card-container:not(:first-child) {
